@@ -21,7 +21,7 @@ jobs:
           legitify_base_version: main
           compile_legitify: true
           github_token: ${{ secrets.PAT_FOR_LEGITIFY }}
-          ignore-rules: |
+          ignore-policies: |
             code_review_not_required
             code_review_by_two_members_not_required
             code_review_not_limited_to_code_owners
