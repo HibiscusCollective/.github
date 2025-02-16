@@ -1,4 +1,4 @@
-# **ADR-0001** Select Lefthook as Git Hook Manager
+# **ADR-0001** Git hook manager selection
 
 **Authors**: Pierre Fouilloux
 
