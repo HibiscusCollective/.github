@@ -4,6 +4,8 @@
 
 ![Accepted](https://img.shields.io/badge/status-accepted-green)
 ![Date](https://img.shields.io/badge/Date-07_Feb_2025-lightblue)
+![Policy Type](https://img.shields.io/badge/category-governance-green)
+![Approval Model](https://img.shields.io/badge/approved_by-project_lead-red)
 
 ## Context and Problem Statement
 
@@ -85,7 +87,7 @@ A branch named `draft/{id}-{title}` will be created to track the decision with r
     - Closing a PR with few comments or many approvals must also be justified in the closing message.
 
 4. **Status: in review**.
-Once the community is aligning on a single direction, a pull request will be raised to the main branch containing a draft decision record in MADR format [1].
+Once the community is aligning on a single direction, a pull request will be raised to the main branch containing a draft decision record in MADR format [^1].
 It will remain open for comment for a reasonable amount of time and I will merge it when it is ready.
 5. **Status: probation**.
 A decision will be moved to this status once it passes the initial review.
@@ -105,5 +107,5 @@ We just start a new decision process about changing or reversing a previous deci
 
 ## References
 
-[1] Kopp, O. and Zimmermann, O. (2024). Markdown Architectural Decision Records (MADR). [online] MADR.
+[^1] Kopp, O. and Zimmermann, O. (2024). Markdown Architectural Decision Records (MADR). [online] MADR.
 Architectural Decision Records Github Organization. Available at: <https://adr.github.io/madr/> [Accessed 6 Feb. 2025].
